@@ -17,3 +17,5 @@ model.fit(X_scaled)
 # Prediction
 preds = model.predict(X_scaled)
 print(preds)
+
+print("Number of anomalies:", (preds == -1).sum())
