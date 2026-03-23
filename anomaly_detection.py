@@ -1,3 +1,4 @@
+# Log anomaly detection for SOC use case
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 import numpy as np
